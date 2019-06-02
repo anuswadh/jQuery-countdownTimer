@@ -429,7 +429,7 @@ Following are the different code samples for using `countdowntimer` method.
 	
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			dateAndTime : "2020/01/01 00:00:00"‚
 			labelsFormat : true,
 			displayFormat : "YODHMS",
@@ -453,7 +453,7 @@ Following are the different code samples for using `countdowntimer` method.
 	
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			hours : 3‚
 			minutes : 10‚
 			seconds : 10‚
@@ -470,23 +470,23 @@ Following are the different code samples for using `countdowntimer` method.
 	
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			hours : 3‚
 			minutes : 10‚
 			size : "lg"
 		});
 		function urfunc() {
 			if(yourcond === true) {
-				jQuery("#cdt").countdowntimer("pause", "pause");
+				jQuery('#cdt').countdowntimer("pause", "pause");
 			} else {
-				jQuery("#cdt").countdowntimer("pause", "resume");
+				jQuery('#cdt').countdowntimer("pause", "resume");
 			} 
 			if(yourothercond === true) {
-				jQuery("#cdt").countdowntimer("stop", "stop");	
+				jQuery('#cdt').countdowntimer("stop", "stop");	
 			} else {
-				jQuery("#cdt").countdowntimer("stop", "start");
+				jQuery('#cdt').countdowntimer("stop", "start");
 			}
-			jQuery("#cdt").countdowntimer("destroy");
+			jQuery('#cdt').countdowntimer("destroy");
 		}
 	});
 	```
@@ -495,7 +495,7 @@ Following are the different code samples for using `countdowntimer` method.
 	
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			minutes : 20‚
 			seconds : 10‚
 			size : "lg"
@@ -507,7 +507,7 @@ Following are the different code samples for using `countdowntimer` method.
 
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			hours : 2‚
 			seconds : 10‚
 			size : "lg"
@@ -519,7 +519,7 @@ Following are the different code samples for using `countdowntimer` method.
 
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			hours : 2‚
 			size : "lg",
 			tickInterval : 60
@@ -531,7 +531,7 @@ Following are the different code samples for using `countdowntimer` method.
 	
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			minutes : 2‚
 			size : "lg"
 		});
@@ -542,7 +542,7 @@ Following are the different code samples for using `countdowntimer` method.
 
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			seconds : 25‚
 			size : "lg"
 		});
@@ -553,7 +553,7 @@ Following are the different code samples for using `countdowntimer` method.
 
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			currentTime : true‚
 			size : "lg",
 			borderColor : "#5D09FA",
@@ -568,7 +568,7 @@ Following are the different code samples for using `countdowntimer` method.
 
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			startDate : "2017/10/10 12:00:00",
 			dateAndTime : "2020/10/10 12:00:00",
 			size : "lg"
@@ -580,7 +580,7 @@ Following are the different code samples for using `countdowntimer` method.
 
 	```js
         $(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 			startDate : "<?php echo date('Y/m/d H:i:s'); ?>",
 			dateAndTime : "2020/10/10 12:00:00",
 			size : "lg",
@@ -594,7 +594,7 @@ Following are the different code samples for using `countdowntimer` method.
 
 	```js
 	$(function(){
-		$("#cdt").countdowntimer({
+		$('#cdt').countdowntimer({
 		});
 	});
 	```
